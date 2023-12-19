@@ -1,0 +1,129 @@
+.portfolio__header-content {
+  color: #fff;
+  margin: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio__header-message {
+  text-align: justify;
+  width: 820px;
+}
+
+.portfolio__header-message_highlight {
+  font-weight: 800;
+  font-size: 1.2em;
+}
+.portfolio__header-link_icons {
+  margin-bottom: 1rem;
+}
+
+.portfolio__header-title {
+  box-sizing: content-box;
+  display: flex;
+  height: 40px;
+}
+
+.portfolio__header-title_words {
+  overflow: hidden;
+}
+
+.portfolio__header-title_words span {
+  display: block;
+  height: 100%;
+  font-size: 28px;
+  padding-left: 10px;
+  animation: spin-words 6s infinite;
+}
+
+@keyframes spin-words {
+  10% {
+    transform: translateY(-108%);
+  }
+
+  25% {
+    transform: translateY(-100%);
+  }
+
+  35% {
+    transform: translateY(-208%);
+  }
+
+  50% {
+    transform: translateY(-200%);
+  }
+
+  60% {
+    transform: translateY(-308%);
+  }
+
+  75% {
+    transform: translateY(-300%);
+  }
+
+  85% {
+    transform: translateY(-408%);
+  }
+
+  100% {
+    transform: translateY(-400%);
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .portfolio__header-name {
+    font-size: 64px;
+  }
+
+  .portfolio__header-title {
+    font-size: 30px;
+  }
+
+  .portfolio__header-message {
+    width: 560px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .portfolio__header-content {
+    margin: 0;
+  }
+  .portfolio__header-message {
+    width: 100%;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .portfolio__header-name {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .portfolio__header-title_words span,
+  .portfolio__header-title p {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .portfolio__header-name {
+    font-size: 32px;
+    white-space: nowrap;
+  }
+
+  .portfolio__header-title {
+    font-size: 24px;
+  }
+
+  .portfolio__header-message {
+    font-size: 12px;
+  }
+
+  .portfolio__header-title_words span,
+  .portfolio__header-title p {
+    font-size: 15px;
+  }
+}

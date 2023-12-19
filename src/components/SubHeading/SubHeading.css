@@ -1,0 +1,31 @@
+.portfolio__subheading-title {
+  text-transform: capitalize;
+}
+
+.portfolio__subheading-underline {
+  background: var(--color-golden);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 0.25rem;
+  width: 60px;
+  height: 5px;
+}
+
+.portfolio__subheading:hover .portfolio__subheading-underline {
+  animation: left-to-right 0.5s ease-in-out alternate;
+}
+
+@keyframes left-to-right {
+  50% {
+    width: 20px;
+  }
+
+  100% {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .portfolio__subheading-title {
+    font-size: 24px;
+  }
+}
