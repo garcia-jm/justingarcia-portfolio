@@ -33,7 +33,7 @@
   height: 100%;
   font-size: 28px;
   padding-left: 10px;
-  animation: spin-words 6s infinite;
+  animation: spin-words 7s infinite;
 }
 
 @keyframes spin-words {

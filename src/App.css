@@ -2,24 +2,11 @@
   background-color: black;
 }
 
-.bg__green {
-  background-color: green;
-}
-
-.bg__gray {
-  background: var(--color-gray);
-}
-
-.bg__golden {
-  background: var(--color-golden);
-}
-
 .p__cormorant {
   font-family: var(--font-base);
   color: var(--color-white);
   font-weight: 700;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
   font-feature-settings: "tnum" on, "lnum" on;
   line-height: 29.9px;
   font-size: 23px;
@@ -30,7 +17,6 @@
   color: var(--color-white);
   font-weight: 400;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
   line-height: 28px;
   font-size: 16px;
 }
@@ -50,6 +36,82 @@
   background-size: cover;
   background-repeat: repeat;
   background-attachment: fixed;
+}
+
+.gradient__bg {
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 27% 36%,
+    rgba(138, 127, 86, 1) 0%,
+    rgba(83, 78, 83, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 27% 36%,
+    rgba(138, 127, 86, 1) 0%,
+    rgba(83, 78, 83, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 27% 36%,
+    rgba(138, 127, 86, 1) 0%,
+    rgba(83, 78, 83, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 27% 36%,
+    rgba(138, 127, 86, 1) 0%,
+    rgba(83, 78, 83, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 27% 36%,
+    rgba(138, 127, 86, 1) 0%,
+    rgba(83, 78, 83, 1) 100%
+  );
+
+  transition: 1s ease;
+}
+
+.gradient__bg:hover {
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 27% 36%,
+    rgba(220, 202, 135, 1) 0%,
+    rgba(83, 78, 83, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 27% 36%,
+    rgba(220, 202, 135, 1) 0%,
+    rgba(83, 78, 83, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 27% 36%,
+    rgba(220, 202, 135, 1) 0%,
+    rgba(83, 78, 83, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 27% 36%,
+    rgba(220, 202, 135, 1) 0%,
+    rgba(83, 78, 83, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 27% 36%,
+    rgba(220, 202, 135, 1) 0%,
+    rgba(83, 78, 83, 1) 100%
+  );
 }
 
 * {

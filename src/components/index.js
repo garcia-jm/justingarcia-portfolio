@@ -6,3 +6,4 @@ export { default as SubHeading } from "./SubHeading/SubHeading";
 export { default as Projects } from "./Projects/Projects";
 export { default as ProjectItem } from "./ProjectItem/ProjectItem";
 export { default as Skill } from "./Skill/Skill";
+export { default as Card } from "./Card/Card";

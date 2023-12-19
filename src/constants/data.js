@@ -75,4 +75,62 @@ const myProject = [
   },
 ];
 
-export default { projects, myProject };
+const skillSets = [
+  {
+    title: "Front-End Development",
+    description:
+      "My Front-End stack ensures seamless user experiences across various devices, employing modern design principles and media queries.",
+    image: [
+      { name: "HTML5", imgUrl: images.html5 },
+      { name: "CSS3", imgUrl: images.css3 },
+      { name: "JavaScript", imgUrl: images.javascript },
+      { name: "React", imgUrl: images.react },
+      { name: "Syntactically Awesome Style Sheets", imgUrl: images.sass },
+      { name: "Redux", imgUrl: images.redux },
+    ],
+  },
+  {
+    title: "Back-End Development",
+    description:
+      "My Back-end stack ensures the delivery of robust, scalable and efficient server-side solutions.",
+    image: [
+      { name: "Java", imgUrl: images.java },
+      { name: "Node.js", imgUrl: images.nodejs },
+      { name: "Express.js", imgUrl: images.expressJs },
+      { name: "jQuery", imgUrl: images.jquery },
+      { name: "GraphQL", imgUrl: images.graphql },
+    ],
+  },
+  {
+    title: "Database Management System",
+    description:
+      "In database design and administration, my goal is to implement best practices for data integrity, security, and performance.",
+    image: [
+      { name: "MariaDB", imgUrl: images.mariadb },
+      { name: "MySQL", imgUrl: images.mysql },
+      { name: "SQL", imgUrl: images.sql },
+      { name: "PostgreSQL", imgUrl: images.postgresql },
+    ],
+  },
+  {
+    title: "IDE and other tools",
+    description:
+      "IDE, framework and tools that I used to help me build beautiful and interactive applications.",
+    image: [
+      { name: "Visual Studio", imgUrl: images.visualstudio },
+      { name: "Visual Studio Code", imgUrl: images.visualStudioCode },
+      { name: "Android Studio", imgUrl: images.android },
+      { name: "IntelliJ", imgUrl: images.intellij },
+      { name: "Postman", imgUrl: images.postman },
+      { name: "Git", imgUrl: images.git },
+      { name: "GitHub", imgUrl: images.github },
+      { name: "GitHub Desktop", imgUrl: images.githubdesktop },
+    ],
+  },
+];
+
+export default {
+  projects,
+  myProject,
+  skillSets,
+};
