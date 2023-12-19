@@ -40,6 +40,8 @@
   width: 26px;
   height: 26px;
   margin-right: 0.3rem;
+
+  cursor: pointer;
 }
 
 .portfolio__skill-and-tools_icon-and-tooltip::before,
