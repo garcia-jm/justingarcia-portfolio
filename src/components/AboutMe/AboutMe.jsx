@@ -5,7 +5,7 @@ import "./AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <div className="portfolio__aboutme section__padding bg__black">
+    <div className="portfolio__aboutme section__padding bg__black" id="#about">
       <SubHeading title={"About Me"} />
       <div className="portfolio__aboutme-content">
         <div className="portfolio__aboutme-content_image">
