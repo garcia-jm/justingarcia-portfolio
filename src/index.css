@@ -6,11 +6,27 @@
 
   --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
   --color-golden: #dcca87;
+  --color-gold: #e7bd25;
+  --color-pale-golden: #d1cab0;
   --color-black: #0c0c0c;
   --color-gray: #545454;
   --color-crimson: #f5efdb;
   --color-grey: #aaaaaa;
   --color-white: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-pale-golden);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: var(--color-gold);
+  border: 0.5px solid black;
 }
 
 * {
