@@ -67,6 +67,7 @@ const myProject = [
       "Styled-Components",
       "Redux",
       "Third Party API",
+      "GraphQL",
       "vitejs",
     ],
     description:
