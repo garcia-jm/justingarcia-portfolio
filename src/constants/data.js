@@ -115,7 +115,7 @@ const skillSets = [
   {
     title: "IDE and other tools",
     description:
-      "Platform and tools that helps me develop and build beautiful and interactive applications.",
+      "Platform and tools that help me develop and build beautiful and interactive applications.",
     image: [
       { name: "Visual Studio", imgUrl: images.visualstudio },
       { name: "Visual Studio Code", imgUrl: images.visualStudioCode },
