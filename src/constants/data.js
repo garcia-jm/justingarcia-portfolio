@@ -11,7 +11,7 @@ const projects = [
       "Scene Builder",
     ],
     description:
-      "A Java Application that follows an Object-Oriented Programming Paradigm that uses MariaDB to store and organize user's data. The Application allows its users to add, update, retrieve, and delete an account or information of customers, agents, and/or packages.",
+      "A JavaFX Application that follows an Object-Oriented Programming Paradigm that uses MariaDB to store and organize user's data. The Application allows its users to add, update, retrieve, and delete an account or information of customers, agents, and/or packages.",
     imgUrl: [
       images.w6_frontPage,
       images.w6_customerPage,
