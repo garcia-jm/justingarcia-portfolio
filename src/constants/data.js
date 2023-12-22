@@ -87,6 +87,7 @@ const skillSets = [
       { name: "CSS3", imgUrl: images.css3 },
       { name: "JavaScript", imgUrl: images.javascript },
       { name: "React", imgUrl: images.react },
+      { name: "TypeScript", imgUrl: images.typescript },
       { name: "Syntactically Awesome Style Sheets", imgUrl: images.sass },
       { name: "Redux", imgUrl: images.redux },
     ],
