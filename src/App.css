@@ -153,40 +153,6 @@
   }
 }
 
-.github-svg {
-  margin-right: 8px;
-  transition: 1s ease;
-}
-
-.github-svg .github-path {
-  fill: var(--color-golden);
-  transition: fill 0.3s;
-}
-
-.github-svg:hover .github-path {
-  fill: black;
-}
-
-.github-svg:hover {
-  background: var(--color-gray);
-}
-
-.linkedin-svg .linkedin-path-1 {
-  fill: var(--color-golden);
-  transition: fill 0.3s;
-}
-
-.linkedin-svg:hover .linkedin-path-1 {
-  fill: #007bb5;
-}
-
-.linkedin-svg .linkedin-path-2 {
-  fill: #0c192c;
-}
-
-.linkedin-svg:hover .linkedin-path-2 {
-  fill: white;
-}
 @media screen and (min-width: 2000px) {
   .p__cormorant {
     font-size: 37px;
