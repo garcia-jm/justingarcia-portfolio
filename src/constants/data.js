@@ -64,11 +64,12 @@ const myProject = [
     title: "Recipe Radar",
     skills: [
       "React",
+      "TypeScript",
       "Styled-Components",
       "Redux",
       "Node.js",
+      "Express.js",
       "Third Party API",
-      "GraphQL",
       "vitejs",
     ],
     description:
