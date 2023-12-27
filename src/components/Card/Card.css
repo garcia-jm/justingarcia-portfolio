@@ -78,7 +78,7 @@
 }
 
 .portfolio__skill-and-tools_icon-and-tooltip::after {
-  --translate-y: calc(-1 * var(--arrow-size));
+  --translate-y: calc(-1.2 * var(--arrow-size));
 
   content: "";
   border: var(--arrow-size) solid transparent;
