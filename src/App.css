@@ -153,7 +153,7 @@
   }
 }
 
-@media screen and (min-width: 2000px) {
+/* @media screen and (min-width: 2000px) {
   .p__cormorant {
     font-size: 37px;
     line-height: 67px;
@@ -168,7 +168,7 @@
     font-size: 150px;
     line-height: 210px;
   }
-}
+} */
 
 @media screen and (max-width: 850px) {
   .section__padding {
